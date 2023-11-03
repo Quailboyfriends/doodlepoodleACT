@@ -1,0 +1,95 @@
+body {
+    text-align: center;
+    background-color: #ffb56e;
+    align-items: center;
+    font-family: sans-serif;
+    
+}
+
+#botonesanimales {
+
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    padding-left: 220px;
+}
+.referencia {
+    width: 400px;
+    object-fit: cover;
+    border: none;
+    padding-left: 220px;
+    padding-top: 13px;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contenedor > div {
+    margin-bottom: 1rem;
+    width: 30%;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    width: 85px;
+    height: 35px;
+    background-color: #e78158;
+}
+
+.container {
+    padding-top: 10vh;
+    flex-direction: column;
+    grid-template-columns: 1fr 3fr;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 30%;
+    float: right;
+}
+
+#toolbar {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 0.5rem;
+}
+
+.control {
+    width: 100%;
+    font-size: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    white-space: nowrap;
+}
+
+.control input {
+    margin-left: 1rem;
+    width: 50%;
+}
+
+.drawing-board{
+    display: flex;
+    justify-content: flex-end;
+}
+
+canvas {
+    border: 1pt solid #e78158;
+    cursor: crosshair;
+    background-color: beige;
+}
+
+.wrapper {
+    bottom: 0%;
+}
+
+.contenedorbig {
+    display: flex;
+}

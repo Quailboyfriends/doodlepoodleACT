@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doodlepoodle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <img src="doodlepoodlelogo.png" alt="logo de la pagina" id="logo" width="350px">
+    <h3>Herramienta de boceto rápido</h3>
+
+<br><br><br>
+
+<div class="contenedorbig">
+
+
+
+    <div class="contenedor">
+
+        <div id="botonesanimales">
+            <button id="botonGatos">Gatos</button>
+            <button id="botonPerros">Perros</button>
+            <button id="botonotro">?</button>
+        </div>
+
+        <img src="" alt="" id="referencia" width="400" height="400" class="referencia">
+    </div>
+
+    <section class="container">
+      
+        <div class="drawing-board">
+            <canvas height="400" width="400" id="drawing-board"></canvas>
+
+
+  <div id="toolbar">
+            <div class="control">
+                <label for="stroke">Color</label>
+                <input id="stroke" name='stroke' type="color">
+            </div>
+            <div class="control">
+                <label for="lineWidth">Grosor</label>
+                <input id="lineWidth" name='lineWidth' type="number" value="5">
+            </div>
+            <button id="undo">Borrar</button>
+        </div>
+
+
+        </div>
+    </section>
+
+
+
+</div>
+
+
+
+
+<div class="wrapper">
+
+    <p><span id="seconds">00</span>:<span id="tens">00</span></p>
+    <button id="button-start">Empezar</button>
+    <button id="button-stop">Parar</button>
+    <button id="button-reset">Reiniciar</button>
+</div>
+
+
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
